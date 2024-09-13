@@ -1,0 +1,124 @@
+/* admin.css */
+
+/* Sidebar */
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    background: #292b2c;
+    color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu .sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-menu .main-menu {
+    padding-left: 0;
+}
+
+.sidebar-menu .menu-inner {
+    padding-left: 0;
+}
+
+.sidebar-menu nav ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.sidebar-menu nav ul li {
+    position: relative;
+}
+
+.sidebar-menu nav ul li.active > a {
+    background: #343a40;
+}
+
+.sidebar-menu nav ul li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu nav ul li > a:hover {
+    background: #343a40;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+.page-container {
+    margin-left: 260px;
+    transition: all 0.3s ease;
+}
+
+.main-content {
+    padding: 30px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.header-area {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-area h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.notification-area {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-area li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.date {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-container {
+        margin-left: 0;
+    }
+    .sidebar-menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1000;
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+}

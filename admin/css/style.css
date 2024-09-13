@@ -1,0 +1,47 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif; /* Mengatur font untuk seluruh halaman */
+    background-color: #f8f9fa; /* Warna latar belakang halaman */
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    max-width: 600px; /* Lebar maksimum dari kontainer */
+    margin: 50px auto; /* Mengatur margin atas dan bawah serta otomatis di kiri dan kanan */
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    padding: 20px; /* Jarak dalam kontainer */
+    border-radius: 8px; /* Memperhalus sudut kontainer */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambahkan bayangan untuk efek kedalaman */
+}
+
+/* Gaya untuk judul */
+h2 {
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+    color: #333; /* Warna teks judul */
+}
+
+/* Gaya untuk tombol */
+.btn {
+    margin-top: 10px; /* Jarak atas dari tombol */
+    width: 100%; /* Mengatur lebar tombol penuh */
+    padding: 10px; /* Jarak dalam tombol */
+}
+
+/* Gaya untuk tombol simpan (berwarna biru) */
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol simpan */
+    border: none; /* Menghilangkan border default */
+}
+
+/* Gaya untuk tombol batal (berwarna abu-abu) */
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang tombol batal */
+    border: none; /* Menghilangkan border default */
+}

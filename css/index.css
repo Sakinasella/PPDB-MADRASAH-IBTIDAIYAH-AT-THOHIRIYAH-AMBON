@@ -1,0 +1,253 @@
+/* Scroll offset untuk menghindari navbar yang fixed menutupi konten */
+html {
+    scroll-padding-top: 80px; /* Sesuaikan dengan tinggi navbar */
+    scroll-behavior: smooth; /* Scroll smooth */
+}
+
+/* Tambahkan margin atas untuk setiap section yang ditargetkan */
+#kegiatan, #panduan {
+    margin-top: 100px; /* Sesuaikan dengan tinggi navbar */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Styling navbar */
+.navbar-custom {
+    background-color: #1c411d; /* Warna background navbar */
+    padding: 20px 50px; /* Padding atas/bawah dan kanan/kiri */
+    width: 100%; /* Lebar navbar 100% dari layar */
+    box-sizing: border-box; /* Memastikan padding termasuk dalam lebar total */
+    font-family: 'Arial', sans-serif; /* Mengatur font keluarga */
+    z-index: 999; /* Pastikan navbar tetap di atas konten */
+}
+
+/* Styling untuk navbar brand */
+.navbar-custom .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 28px; /* Memperbesar ukuran font untuk navbar brand */
+    letter-spacing: 1px; /* Menambahkan jarak antar huruf */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+}
+
+/* Styling untuk nav-link */
+.navbar-custom .nav-link {
+    color: white;
+    font-size: 20px; /* Memperbesar ukuran font untuk nav-link */
+    margin-left: 20px; /* Memberi jarak antar link */
+    padding: 10px 15px; /* Menambah padding di dalam link */
+    border-radius: 5px; /* Menambahkan sudut membulat */
+    font-weight: bold; /* Membuat font lebih tebal */
+    text-decoration: none; /* Menghapus garis bawah */
+    transition: all 0.3s ease-in-out; /* Transisi halus untuk semua efek */
+}
+
+
+
+/* Efek hover dan active pada nav-link */
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:active {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan pada elemen */
+    background-color:  #60bf5789;  /* Background semi transparan */
+}
+/* Mengubah warna hamburger icon */
+.navbar-toggler-icon {
+    background-image: url('https://image.flaticon.com/icons/svg/545/545682.svg'); /* Custom icon untuk hamburger */
+}
+
+/* Mengatasi masalah pada tampilan mobile */
+@media (max-width: 767px) {
+    .navbar-custom {
+        padding: 15px; /* Menyesuaikan padding pada tampilan mobile */
+        width: 100%; /* Lebar 100% pada tampilan mobile */
+    }
+}
+
+
+
+
+.logo {
+    text-align: center;
+    margin: 50px 0;
+}
+.logo img {
+    width: 200px;
+}
+
+
+
+header {
+    background-color: #5fbf57; /* Warna background header */
+    color: white; /* Warna teks putih */
+    width: 100%; /* Lebar penuh layar */
+    height: 100vh; /* Tinggi 100% dari tinggi viewport */
+    display: flex; /* Flexbox untuk penyelarasan */
+    flex-direction: column; /* Arah konten vertikal */
+    justify-content: center; /* Menyelaraskan konten vertikal di tengah */
+    align-items: center; /* Menyelaraskan konten horizontal di tengah */
+    text-align: center; /* Menyelaraskan teks */
+    padding: 0 20px; /* Menambahkan padding horizontal */
+}
+
+header img {
+    width: 250px; /* Memperbesar ukuran logo */
+    margin-bottom: 20px; /* Jarak antara logo dan teks */
+}
+
+header .content-title {
+    font-size: 50px; /* Ukuran font lebih besar */
+    font-weight: bold;
+    text-transform: uppercase; /* Huruf kapital */
+}
+
+
+
+.container {
+    width: 100%; /* Lebar penuh layar */
+    padding: 0; /* Menghapus padding default */
+    height: 80vh; /* Tinggi 100% dari tinggi viewport */
+}
+.row {
+    margin-right: 0; /* Menghapus margin kanan default */
+    margin-left: 0; /* Menghapus margin kiri default */
+}
+.img-fluid {
+    width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Memastikan aspek rasio gambar dipertahankan */
+}
+h3.text-center {
+    font-weight: bold; /* Menetapkan teks menjadi tebal */
+    text-transform: uppercase; /* Huruf kapital */
+}
+
+
+
+.registration-guide {
+    background-color: #5fbf57;  /* Latar belakang dengan warna netral */
+    padding: 20px; /* Ruang di dalam kontainer */
+    height: 64vh; /* Tinggi 100% dari tinggi viewport */
+}
+.registration-guide h2 {
+    font-size: 40px; /* Ukuran font yang lebih besar untuk judul */
+    color: #ffffff; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    font-weight: bold;
+}
+.registration-guide p {
+    font-size: 16px; /* Ukuran font untuk paragraf */
+    line-height: 1.6; /* Jarak antar baris untuk keterbacaan */
+    color: #ffffff; /* Warna teks paragraf */
+    margin-bottom: 15px; /* Jarak bawah paragraf */ 
+    text-align: center; /* Menyelaraskan teks di tengah */
+    font-weight: bold;
+}
+.registration-guide a.btn {
+    font-size: 18px; /* Ukuran font untuk tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border-radius: 5px; /* Sudut membulat pada tombol */
+    text-transform: uppercase; /* Huruf kapital pada tombol */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    font-weight: bold;
+}
+
+
+
+.info-section {
+    background-color: #282a2d; /* Background section */
+    color: #ffffff; /* Text color */
+    padding: 40px 20px; /* Padding for section */
+}
+
+.info-section h4 {
+    font-size: 24px; /* Font size for headings */
+    font-weight: bold; /* Font weight for headings */
+    color: #ffffff; /* Color for headings */
+    text-transform: uppercase; /* Uppercase text */
+    margin-bottom: 20px; /* Margin below headings */
+}
+
+.info-section p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+}
+.btn-social {
+    font-size: 24px; /* Ukuran font untuk ikon sosial */
+    width: 40px; /* Lebar tombol sosial */
+    height: 40px; /* Tinggi tombol sosial */
+    display: flex; /* Flexbox untuk memusatkan ikon */
+    align-items: center; /* Pusatkan ikon secara vertikal */
+    justify-content: center; /* Pusatkan ikon secara horizontal */
+    border-radius: 50%; /* Tombol sosial berbentuk bulat */
+    margin: 0 10px; /* Jarak antar tombol sosial */
+}
+
+.btn-social i {
+    margin: 0; /* Menghapus margin di sekitar ikon */
+}
+
+/* Mengatur jarak antar tombol pada tampilan kecil */
+@media (max-width: 768px) {
+    .btn-social {
+        margin: 0 5px; /* Mengurangi jarak antar tombol pada perangkat kecil */
+    }
+}
+.col-custom {
+    width: 42%; /* Lebar kolom 42% dari lebar kontainer */
+    padding: 0 15px; /* Padding kiri dan kanan */
+    box-sizing: border-box; /* Menghitung padding dalam lebar total */
+}
+
+/* Styling untuk menambahkan jarak di bawah kolom jika diperlukan */
+.col-custom.mb-2 {
+    margin-bottom: 20px; /* Jarak bawah kolom */
+}
+
+.info-section {
+    padding: 30px; /* Padding sekitar konten */
+}
+
+.info-section .row {
+    display: flex; /* Menggunakan flexbox untuk penyusunan */
+    justify-content: center; /* Menyelaraskan kolom di tengah baris */
+}
+.btn-social {
+    margin: 0 5px; /* Mengurangi jarak antar tombol */
+}
+
+.info-section .col-lg-4 {
+    text-align: center; /* Menyelaraskan teks di tengah kolom */
+}
+
+
+.info-section .btn-social {
+    display: inline-flex; /* Menyusun tombol dalam satu baris dan fleksibel */
+    align-items: center; /* Menyelaraskan ikon di tengah tombol */
+    justify-content: center; /* Menyelaraskan ikon secara horizontal di tengah tombol */
+    width: 50px; /* Ukuran tombol */
+    height: 50px; /* Ukuran tombol */
+    font-size: 24px; /* Ukuran ikon */
+    margin: 0 10px; /* Jarak antar tombol */
+    line-height: 1; /* Menghindari jarak ekstra di sekitar teks */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+}
+
+.info-section .btn-social i {
+    margin: 0; /* Menghapus margin di sekitar ikon */
+    vertical-align: middle; /* Menyelaraskan ikon secara vertikal di tengah tombol */
+}
+
+
+
+
+
+.footer {
+    background-color: #020202;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

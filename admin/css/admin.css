@@ -1,0 +1,80 @@
+.sidebar-menu {
+    background-color: #2b4332; /* Green background */
+}
+
+.sidebar-menu .sidebar-header {
+    background-color: #2b4332; /* Slightly darker green for the header */
+}
+
+.sidebar-menu .metismenu li a {
+    color: white; /* White text for the menu items */
+}
+
+.sidebar-menu .metismenu li a:hover, 
+.sidebar-menu .metismenu li.active a {
+    background-color: #1e9838ba; /* Darker green on hover or active state */
+    color: rgb(124, 149, 109);
+}
+
+/* Membuat isi tabel di tengah */
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Mengatur posisi dropdown filter di kanan */
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+/* Menyesuaikan lebar dropdown */
+#yearFilter {
+    width: 100%;
+}
+
+/* Gaya untuk card-body */
+.card-body {
+  padding: 15px; /* Ruang di dalam card-body */
+  color: #333; /* Warna teks */
+  font-size: 1em; /* Ukuran font teks */
+  line-height: 1.6; /* Jarak antar baris teks */
+  background-color: #e9f0e9; /* Warna latar belakang card-body */
+  border-top: 1px solid #e0e0e0; /* Garis batas atas card-body */
+  border-bottom: 1px solid #e0e0e0; /* Garis batas bawah card-body */
+}
+
+/* Gaya untuk baris tabel saat hover */
+.table tbody tr:hover {
+background-color: #f1f1f1; /* Warna latar belakang baris saat hover */
+}
+
+/* Gaya untuk thead dengan kelas thead-dark */
+.thead-dark {
+    background-color: #343a40; /* Warna latar belakang gelap */
+    color: #ffffff; /* Warna teks putih */
+  }
+
+.d-sm-flex h2 {
+    color: #39422d; /* Mengatur warna teks menjadi hitam */
+    margin: 0; /* Menghapus margin default dari h2 */
+}
+
+
+
+.card-body h2 {
+    text-align: center;
+}
+
+/* Set table header background color to green */
+#dataTable3 thead th {
+    background-color: #174d24; /* Green color */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center text */
+}
+
+/* Center all table cell content */
+#dataTable3 td, #dataTable3 th {
+    text-align: center;
+}

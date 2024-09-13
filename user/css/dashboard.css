@@ -1,0 +1,53 @@
+
+.main-content{
+    background-image: url(background.jpg);
+}
+
+.sidebar-header{
+    background-color: #2b4332; /* Green background */
+}
+
+.text-center {
+    text-align: center;
+}
+.sidebar-menu {
+    background-color: #2b4332; /* Green background */
+}
+
+.sidebar-menu .sidebar-header {
+    background-color: #2b4332; /* Slightly darker green for the header */
+}
+
+.sidebar-menu .metismenu li a {
+    color: white; /* White text for the menu items */
+}
+
+.sidebar-menu .metismenu li a:hover, 
+.sidebar-menu .metismenu li.active a {
+    background-color: #1e9838ba; /* Darker green on hover or active state */
+    color: white;
+}
+
+
+
+.footer-area{
+    background-color:black;
+}
+
+       /* Center table title */
+       .card-body h2 {
+        text-align: center;
+    }
+
+    /* Set table header background color to green */
+    #dataTable3 thead th {
+        background-color: #174d24; /* Green color */
+        color: #ffffff; /* White text */
+        text-align: center; /* Center text */
+    }
+
+    /* Center all table cell content */
+    #dataTable3 td, #dataTable3 th {
+        text-align: center;
+    }
+
